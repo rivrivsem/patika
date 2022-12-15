@@ -36,6 +36,8 @@ public class ManavKasaProgramı {
         double toplamTutar = (armut*armutFyt)+(elma*elmaFyt)+(domates*domatesFyt)+(muz*muzFyt)+(patlican*patlicanFyt);
         System.out.println("Toplam Tutar : " + toplamTutar);
 
+        input.close();
+
     }
 
 
