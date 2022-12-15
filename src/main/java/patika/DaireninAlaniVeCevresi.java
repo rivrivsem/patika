@@ -25,6 +25,7 @@ public class DaireninAlaniVeCevresi {
         System.out.println("daireDilimAlan = " + daireDilimAlan);
 
 
+        input.close();
 
 
     }
