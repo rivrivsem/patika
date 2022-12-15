@@ -28,8 +28,7 @@ public class VucutKitleIndex {
         BMI = kilo / (boy * boy);
         System.out.print("Your Body Mass Index : " + BMI);
 
-
-
+        input.close();
 
     }
 }
