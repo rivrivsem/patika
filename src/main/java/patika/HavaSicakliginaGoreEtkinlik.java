@@ -29,5 +29,7 @@ public class HavaSicakliginaGoreEtkinlik {
             System.out.println("bahhh isine kardisiimm bu derecede birsey yapilmaz,hayatta kalmaya cali$ :))");
         }
 
+        input.close();
+
     }
 }
