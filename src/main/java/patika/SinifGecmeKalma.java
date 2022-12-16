@@ -61,10 +61,7 @@ public class SinifGecmeKalma {
         }
 
 
-
-
-
-
+        input.close();
 
 
     }
