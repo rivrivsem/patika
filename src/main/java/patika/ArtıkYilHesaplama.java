@@ -34,7 +34,7 @@ public class ArtıkYilHesaplama {
         Scanner scan = new Scanner(System.in);
         System.out.println("bir yil giriniz");
         yil=scan.nextInt();
-        
+
         if (yil%100==0)
         {
             if (yil%400==0)
@@ -49,6 +49,9 @@ public class ArtıkYilHesaplama {
         else if (yil%4==0)
         {
             System.out.println("girdiginiz yil "+ yil+ " artik yildir");
+        }else
+        {
+            System.out.println("girdiniz yil " + yil + " artik yil degildir");
         }
 
 
