@@ -2,7 +2,7 @@ package patika;
 
 import java.util.Scanner;
 
-public class IkininKuvvetleriniBulma {
+public class DortveBesinKuvvetleriniBulma {
     /*
          Java döngüler ile girilen sayıya kadar olan 2'nin kuvvetlerini ekrana yazdıran programı yazıyoruz.
 
