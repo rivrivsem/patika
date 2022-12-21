@@ -18,7 +18,7 @@ public class TekSayilarinToplaminiBul {
         do {
             System.out.print("lutfen bir sayi giriniz.");
             sayi = scan.nextInt();
-            
+
             if (sayi % 2 == 0)
             {
                 sum += sayi;
@@ -28,7 +28,7 @@ public class TekSayilarinToplaminiBul {
                 sum2 += sayi;
             }
 
-        } while ((sayi % 2) == 0);
+        } while (sayi % 2 == 0);
 
         System.out.println("cift sayilarin toplami :" + sum);
         System.out.println("dordun katlari toplami :" + sum2);
