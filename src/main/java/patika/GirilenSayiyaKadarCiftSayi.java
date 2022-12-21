@@ -44,5 +44,7 @@ public class GirilenSayiyaKadarCiftSayi {
         }
         System.out.println("ortalama : "+sum/cnt);
 
+        scan.close();
     }
+
 }
