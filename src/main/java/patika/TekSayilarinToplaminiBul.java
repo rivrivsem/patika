@@ -32,6 +32,8 @@ public class TekSayilarinToplaminiBul {
 
         System.out.println("cift sayilarin toplami :" + sum);
         System.out.println("dordun katlari toplami :" + sum2);
+
+        scan.close();
     }
 
 }
