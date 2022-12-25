@@ -1,4 +1,4 @@
-package patika;
+package patikaJava;
 
 public class BInarySearchTree {
     //www.patika.dev

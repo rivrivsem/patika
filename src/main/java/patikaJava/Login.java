@@ -1,4 +1,4 @@
-package patika;
+package patikaJava;
 
 import java.util.Scanner;
 
@@ -26,7 +26,7 @@ public class Login {
         System.out.print("Şifrenizi Giriniz: ");
         password= input.nextLine();
 
-        if(userName.equals("patika") && password.equals("javaguzeldir"))
+        if(userName.equals("patikaJava") && password.equals("javaguzeldir"))
         {
             System.out.println("Giriş Yaptınız !");
         }

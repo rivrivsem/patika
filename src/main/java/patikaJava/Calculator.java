@@ -1,4 +1,4 @@
-package patika;
+package patikaJava;
 
 import java.util.Scanner;
 //@author semra
