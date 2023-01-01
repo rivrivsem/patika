@@ -16,6 +16,9 @@ public class Alistirma2 {
 //        number(x, z);
 //    }
 public static void main(String[] args) {
+    System.out.println(f(3));
+
+    System.out.println("Basamak toplami: "+basamaklarToplami(45612));
 
 
     String x = "Patika.dev";
@@ -27,4 +30,25 @@ public static void main(String[] args) {
         String x = "Java101";
         y = "Kodluyoruz";
     }
+
+    static int f(int n){
+        System.out.println("n=> "+ n);
+        if (n==1){
+            return 1;
+        }
+        int result=f(n-1)+n;
+        System.out.println("result = " + result);
+        return result;
+    }
+
+
+    static int basamaklarToplami(int sayi){
+        if (sayi == 0){
+            return 0;
+        }else
+            return sayi % 10 + basamaklarToplami(sayi / 10);
+    }
+
+
+
 }
