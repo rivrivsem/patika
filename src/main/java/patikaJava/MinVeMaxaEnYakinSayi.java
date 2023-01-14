@@ -25,7 +25,7 @@ public class MinVeMaxaEnYakinSayi {
 
                 int kucugeYakin = Integer.MIN_VALUE;
                 int buyugeYakin = Integer.MAX_VALUE;
-                
+
                 for (int number : numbers)
                 {
                     if (number < girilenSayi)
