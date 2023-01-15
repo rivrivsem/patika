@@ -30,7 +30,7 @@ public class PalindromikKelimleriBulma {
 
         System.out.println("===============");
 
-        //2.yontemin sout 
+        //2.yontemin sout
         System.out.println(isPalindrome("abba"));
     }
 

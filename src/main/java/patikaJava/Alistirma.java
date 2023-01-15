@@ -25,18 +25,16 @@ public class Alistirma {
 
     public static void main(String[] args) {
 
-    }
-//    overriding
 
+//    overriding
 
 
 //    Functional Programming Language(Lambda) nedir, kisaca aciklar misiniz ?
 
 
+    }
 
 }
-
-
 
 
 
