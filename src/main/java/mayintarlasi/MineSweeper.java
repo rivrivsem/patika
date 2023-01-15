@@ -98,7 +98,7 @@ public class MineSweeper {
             }
         }
     }
-    
+
     public static void printGrid(int[][] grid) {
         for (int i = 0; i < grid.length; i++)
         {
